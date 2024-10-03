@@ -32,7 +32,7 @@ final class RMTabBarController: UITabBarController {
         let nav3 = UINavigationController(rootViewController: episodesVC)
         let nav4 = UINavigationController(rootViewController: settingsVC)
         
-        // The title for these are for the tabBarItems not the title of the navigation controller
+        // The title for these are for the tabBarItems not the title displayed by the navigation controller
         nav1.tabBarItem = UITabBarItem(title: "Characters",
                                        image: UIImage(systemName: "person"),
                                        tag: 1)
